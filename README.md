@@ -32,7 +32,7 @@ go to the backend folder , then do npm install and then and then npm run dev
 
 3.  **add a file named .env in the backend part and add the following variable in your project**
 
-MONGO_URI=mongodb://localhost:27017
+MONGO_URI=
 PORT=
 SECRET_KEY=
 CLOUD_NAME=
