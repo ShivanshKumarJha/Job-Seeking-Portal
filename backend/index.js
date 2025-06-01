@@ -11,7 +11,10 @@ import applicationRoute from './routes/application.route.js';
 dotenv.config({});
 
 const app = express();
-const address = process.env.LOCALHOST === 'TRUE' ? 'http://localhost:5173' : '';
+const address =
+  process.env.LOCALHOST === 'TRUE'
+    ? 'http://localhost:5173'
+    : 'https://job-seeking-portal-kappa.vercel.app';
 
 // middleware
 app.use(express.json());
