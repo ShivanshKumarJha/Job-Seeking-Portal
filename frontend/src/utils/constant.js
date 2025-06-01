@@ -3,7 +3,7 @@ const localhost = false; // Set to true if running locally, false for production
 // also change https to  http if running locally
 
 export const USER_API_END_POINT = `https://${
-  localhost ? 'localhost:5001' : 'job-seeking-portal-kappa.vercel.app'
+  localhost ? 'localhost:5001' : 'jobers-seek-platform.onrender.com'
 }/api/v1/user`;
 export const JOB_API_END_POINT = `https://${
   localhost ? 'localhost:5001' : 'jobers-seek-platform.onrender.com'
